@@ -1,0 +1,28 @@
+{
+  "name": "keystone-utils",
+  "version": "0.1.0",
+  "description": "A useful library of utilities used by KeystoneJS, and you!",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JedWatson/keystone-utils.git"
+  },
+  "keywords": [
+    "util",
+    "utils",
+    "string manipulation",
+    "conversion",
+    "helpers",
+    "functional"
+  ],
+  "dependencies": {
+    "underscore": "~1.5.2",
+    "i": "~0.3.2"
+  },
+  "author": "Jed Watson",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/JedWatson/keystone-utils/issues"
+  }
+}
