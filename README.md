@@ -1,16 +1,17 @@
 Keystone Utils
 ==============
 
-A useful library of utilities used by [KeystoneJS](http://keystonejs.com) and you!
+A useful library of utilities for node.js used by
+[KeystoneJS](http://keystonejs.com) and you!
 
 It provides additional functionality for manipulating and converting various
 types of data, including converting strings between various forms, and
-lightweight html <> text conversion.
+lightweight html &larr; &rarr; text conversion.
 
 
 ## Usage
 
-	npm install kutils --save
+	npm install keystone-utils --save
 
 ... then ...
 
@@ -76,7 +77,7 @@ as `.utils`.
 		default to `true`.
 *	`decodeHTMLEntities(str)` - decodes html entities in a string
 *	`encodeHTMLEntities(str)` - encodes html entities in a string
-*	`textToHTML(str)` - lightweight conversion of text to HTML (line breaks to <br>)
+*	`textToHTML(str)` - lightweight conversion of text to HTML (line breaks to `<br>`)
 *	`htmlToText(str)` - lightweight conversion to HTML to text
 	*	Really only useful when you need a lightweight way to remove html from a
 		string before cropping it, so you don't end up with partial tags or an
