@@ -1,3 +1,7 @@
+## v0.1.2 / 2013-12-03
+
+* improved; support for extended characters in utils.pathToLabel #2, thanks [itzaks](https://github.com/itzaks)
+
 ## v0.1.1 / 2013-11-18
 
 * added; including the `html-stringify` module as `exports.htmlStringify()`
