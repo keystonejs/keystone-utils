@@ -66,6 +66,7 @@ as `.utils`.
 *	`number(arg)` - converts a string to a number, accepting human-friendly input
 	*	e.g. `1,432` &raquo; `1432`, `$1432` &raquo; `1432`, `2.5` &raquo; `2.5`
 *	`escapeRegExp(str)` - escapes a string to be safely converted to a regular expression
+*	`escapeString(str)` - escapes a string to be safely used as a Javascript string literal
 *	`singular(str)` - converts a string to its singular form
 *	`plural(count, singular, plural)` - displays the singular or plural of a string
 	based on a number or number of items in an array.
