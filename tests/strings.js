@@ -79,3 +79,15 @@ keyToProperty('one2three');
 keyToProperty('id');
 keyToProperty('SomeId');
 
+console.log(_dashes_);
+console.log('Escape String:')
+console.log(_dashes_);
+
+var escapeString = function(str) {
+	console.log(str + ' --> ' + utils.escapeString(str));
+}
+
+escapeString('Koala\'s Sanctuary');
+escapeString('My "Koala"');
+escapeString('This \\ That');
+
