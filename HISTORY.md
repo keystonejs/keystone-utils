@@ -1,6 +1,14 @@
+## v0.1.6 / 2014-01-24
+
+* added; escapeString method
+
+## v0.1.5 / 2014-01-24
+
+* fixed; better protection for string conversion functions with `undefined` / non-string arguments
+
 ## v0.1.4 / 2013-12-23
 
-* fixed; exports.encodeHTMLEntities was missing, incorrectly overriding exports.decodeHTMLEntities
+* fixed; `exports.encodeHTMLEntities` was missing, incorrectly overriding `exports.decodeHTMLEntities`
 
 ## v0.1.3 / 2013-12-06
 
