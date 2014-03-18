@@ -1,3 +1,7 @@
+## v0.1.7 / 2014-03-18
+
+* added; support for converting accented characters (diacritics) to their simple equivalents in `exports.slug`
+
 ## v0.1.6 / 2014-01-24
 
 * added; escapeString method
