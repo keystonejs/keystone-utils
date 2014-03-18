@@ -87,7 +87,18 @@ var escapeString = function(str) {
 	console.log(str + ' --> ' + utils.escapeString(str));
 }
 
-escapeString('Koala\'s Sanctuary');
-escapeString('My "Koala"');
+escapeString('The Koala\'s Sanctuary');
+escapeString('"Koala"');
 escapeString('This \\ That');
+
+console.log(_dashes_);
+console.log('Diacritics:')
+console.log(_dashes_);
+
+var slugString = function(str) {
+	console.log(str + ' --> ' + utils.slug(str));
+}
+
+slugString('àéïōù');
+slugString('çë Díaz Ü');
 
