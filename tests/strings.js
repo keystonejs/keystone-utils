@@ -99,6 +99,6 @@ var slugString = function(str) {
 	console.log(str + ' --> ' + utils.slug(str));
 }
 
-slugString('àéïōù');
+slugString('ÁÂÃÄÅÇÈÉàáâãäåèéêëìíîïòóôõ');
 slugString('çë Díaz Ü');
 
