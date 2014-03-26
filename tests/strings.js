@@ -108,4 +108,7 @@ console.log('Transliteration:')
 console.log(_dashes_);
 
 slugString('современном');
-
+slugString('Балы, красавицы, лакеи, юнкера');
+slugString('И вальсы Шуберта и хруст французской булки,');
+slugString('Любовь, шампанское, закаты, переулки');
+slugString('Как упоительны в России вечера!');
