@@ -91,14 +91,21 @@ escapeString('The Koala\'s Sanctuary');
 escapeString('"Koala"');
 escapeString('This \\ That');
 
-console.log(_dashes_);
-console.log('Diacritics:')
-console.log(_dashes_);
-
 var slugString = function(str) {
 	console.log(str + ' --> ' + utils.slug(str));
 }
 
+console.log(_dashes_);
+console.log('Diacritics:')
+console.log(_dashes_);
+
 slugString('ÁÂÃÄÅÇÈÉàáâãäåèéêëìíîïòóôõ');
 slugString('çë Díaz Ü');
+slugString('çë Díaz Ü');
+
+console.log(_dashes_);
+console.log('Transliteration:')
+console.log(_dashes_);
+
+slugString('современном');
 
