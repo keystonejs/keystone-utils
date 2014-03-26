@@ -132,3 +132,5 @@ see https://github.com/LearnBoost/mongoose
 
 HTML Entity encode / decode is based on code in `node-html-to-text`,
 see https://github.com/werk85/node-html-to-text
+
+The transliteration code is based on https://www.npmjs.org/package/transliteration.cyr
