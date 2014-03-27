@@ -1,6 +1,6 @@
 {
   "name": "keystone-utils",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A useful library of utilities used by KeystoneJS, and you!",
   "main": "index.js",
   "repository": {
@@ -13,7 +13,13 @@
     "string manipulation",
     "conversion",
     "helpers",
-    "functional"
+    "functional",
+    "html",
+    "string",
+    "diacritics",
+    "transliterate",
+    "transliteration",
+    "html entities"
   ],
   "dependencies": {
     "underscore": "~1.5.2",
