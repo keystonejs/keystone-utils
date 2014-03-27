@@ -1,6 +1,6 @@
 ## v0.1.8 / 2014-03-27
 
-* added; support for transliterating Russian and Ukranian words in `exports.slug` via `exports.transliterate`
+* added; support for transliterating Russian and Ukranian words in `exports.slug` via `exports.transliterate`, thanks [DrMoriarty](https://github.com/DrMoriarty)
 
 ## v0.1.7 / 2014-03-18
 
