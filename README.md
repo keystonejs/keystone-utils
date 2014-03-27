@@ -67,6 +67,8 @@ as `.utils`.
 	*	e.g. `1,432` &raquo; `1432`, `$1432` &raquo; `1432`, `2.5` &raquo; `2.5`
 *	`escapeRegExp(str)` - escapes a string to be safely converted to a regular expression
 *	`escapeString(str)` - escapes a string to be safely used as a Javascript string literal
+*	`stripDiacritics(str)` - stips accented characters from a string, replacing them with their simple equivalents
+*	`transliterate(str)` - transliterates Russian and Ukrainian words from cyrillic to latin
 *	`singular(str)` - converts a string to its singular form
 *	`plural(count, singular, plural)` - displays the singular or plural of a string
 	based on a number or number of items in an array.
