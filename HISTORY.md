@@ -1,6 +1,10 @@
+## v0.1.8 / 2014-03-27
+
+* added; support for transliterating Russian and Ukranian words in `exports.slug` via `exports.transliterate`
+
 ## v0.1.7 / 2014-03-18
 
-* added; support for converting accented characters (diacritics) to their simple equivalents in `exports.slug`
+* added; support for converting accented characters (diacritics) to their simple equivalents in `exports.slug` via `exports.stripDiacritics`
 
 ## v0.1.6 / 2014-01-24
 
