@@ -1,3 +1,7 @@
+## v0.1.9 / 2014-04-1
+
+* added; `calculateDistance`, `kmBetween` and `milesBetween` distance calculation methods
+
 ## v0.1.8 / 2014-03-27
 
 * added; support for transliterating Russian and Ukranian words in `exports.slug` via `exports.transliterate`, thanks [DrMoriarty](https://github.com/DrMoriarty)
