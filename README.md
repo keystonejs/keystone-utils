@@ -117,6 +117,9 @@ as `.utils`.
 	*	e.g. `keyToPath('someThing', true)` &raquo; `some-things`
 *	`keyToProperty(str, plural)` - Converts a key to a property.
 	*	Like `keyToPath` but converts to headlessCamelCase instead of dash-separated
+*	`calculateDistance(point1 [lat, lng], point2 [lat, lng])` - Returns the distance between two `[lat,lng]` points in radians
+*	`kmBetween` - Returns the distance between two `[lat,lng]` points in kilometers
+*	`milesBetween` - Returns the distance between two `[lat,lng]` points in miles
 
 
 
