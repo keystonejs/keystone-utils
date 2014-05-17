@@ -26,10 +26,17 @@
     "html-stringify": "~0.0.1",
     "i": "~0.3.2"
   },
+  "devDependencies": {
+    "mocha": ">= 1.18 < 2",
+    "must": ">= 0.11 < 1"
+  },
   "author": "Jed Watson",
   "license": "MIT",
   "readmeFilename": "README.md",
   "bugs": {
     "url": "https://github.com/JedWatson/keystone-utils/issues"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests -R spec"
   }
 }

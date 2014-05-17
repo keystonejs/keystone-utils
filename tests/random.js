@@ -1,27 +1,29 @@
-/**
-	These tests are currently designed to be run from the command line,
-	with output reviewed by a human.
-	
-	Will be implemented using a proper unit testing framework soon.
-*/
+var demand = require('must'),
+	utils = require('../index');
 
-var utils = require('../index'),
-	_dashes_ = '------------------------------';
-
-console.log('\n==============================');
-console.log('Running Tests:');
-console.log('==============================\n');
-
-console.log(_dashes_);
-console.log('Random String:')
-console.log(_dashes_);
-
-console.log('Default:    ' + utils.randomString());
-console.log('2 chars:    ' + utils.randomString(2));
-console.log('4-6 chars:  ' + utils.randomString([4,6]));
-console.log('4-6 chars:  ' + utils.randomString([4,6]));
-console.log('4-6 chars:  ' + utils.randomString([4,6]));
-console.log('4-6 chars:  ' + utils.randomString([4,6]));
-console.log('4-6 chars:  ' + utils.randomString([4,6]));
-console.log('4-6 chars:  ' + utils.randomString([4,6]));
-console.log('ABCDE only: ' + utils.randomString(10, 'ABCDE'));
+describe('Random strings', function() {
+	it('Should return a 10 char random string of alphanums', function() {
+		demand(utils.randomString()).to.match(/^\w{10}$/i);
+	});
+	it('Should return a 2 char random string of alphanums', function() {
+		demand(utils.randomString(2)).to.match(/^\w{2}$/i);
+	});
+	it('Should return a 4-6 char random string of alphanums', function() {
+		demand(utils.randomString([4,6])).to.match(/^\w{4,6}$/i);
+	});
+	it('Should return a 4-6 char random string of alphanums', function() {
+		demand(utils.randomString([4,6])).to.match(/^\w{4,6}$/i);
+	});
+	it('Should return a 4-6 char random string of alphanums', function() {
+		demand(utils.randomString([4,6])).to.match(/^\w{4,6}$/i);
+	});
+	it('Should return a 4-6 char random string of alphanums', function() {
+		demand(utils.randomString([4,6])).to.match(/^\w{4,6}$/i);
+	});
+	it('Should return a 4-6 char random string of alphanums', function() {
+		demand(utils.randomString([4,6])).to.match(/^\w{4,6}$/i);
+	});
+	it('Should return a 20 char random string of "ABCDE"', function() {
+		demand(utils.randomString(20, 'ABCDE')).to.match(/^[A-E]{20}$/);
+	});
+});
