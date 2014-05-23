@@ -147,4 +147,10 @@ describe('String transform', function(){
 			demand(utils.slug('Как упоительны в России вечера!')).to.equal('kak-upoytelny-v-rossyy-vechera');
 		});
 	});
+
+	describe('Smart apostrophe', function() {
+		it('should transform "The User’s Guide" to "the-users-guide"', function() {
+			demand(utils.slug('The User’s Guide')).to.equal('the-users-guide');
+		});
+	});
 });
