@@ -1,3 +1,8 @@
+## v0.1.10 / 2014-05-28
+
+* fixed; Handle smart apostrophe in slug, thanks [Alan Shaw](https://github.com/alanshaw)
+* improved; Tests converted to mocha, run with `npm test`. thanks [Stefan Aebischer](https://github.com/pAlpha627)
+
 ## v0.1.9 / 2014-04-1
 
 * added; `calculateDistance`, `kmBetween` and `milesBetween` distance calculation methods
