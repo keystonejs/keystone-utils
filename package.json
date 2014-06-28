@@ -23,7 +23,7 @@
   ],
   "dependencies": {
     "underscore": "~1.6.0",
-    "html-stringify": "~0.0.1",
+    "html-stringify": "~0.0.2",
     "i": "~0.3.2"
   },
   "devDependencies": {
