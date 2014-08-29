@@ -1,3 +1,7 @@
+## v0.1.12 / 2014-08-29
+
+* updated; underscore to ~0.1.7
+
 ## v0.1.11 / 2014-08-29
 
 * fixed; String functions now correctly convert anything with a `toString()` method instead of returning a blank string
