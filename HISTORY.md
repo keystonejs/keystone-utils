@@ -1,3 +1,7 @@
+## v0.1.11 / 2014-08-29
+
+* fixed; String functions now correctly convert anything with a `toString()` method instead of returning a blank string
+
 ## v0.1.10 / 2014-05-28
 
 * fixed; Handle smart apostrophe in slug, thanks [Alan Shaw](https://github.com/alanshaw)
