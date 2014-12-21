@@ -88,6 +88,7 @@ as `.utils`.
 		default to `true`.
 *	`decodeHTMLEntities(str)` - decodes html entities in a string
 *	`encodeHTMLEntities(str)` - encodes html entities in a string
+*	`stringify(obj)` - safely stringifies an object to JSON for output in JavaScript source (escapes illegal JS but valid JSON unicode characters)
 *	`textToHTML(str)` - lightweight conversion of text to HTML (line breaks to `<br>`)
 *	`htmlToText(str)` - lightweight conversion to HTML to text
 	*	Really only useful when you need a lightweight way to remove html from a
