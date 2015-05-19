@@ -119,14 +119,14 @@ describe('String transform', function(){
 	});
 
 	describe('Diacritics', function() {
-		it('should transform "ÁÂÃÄÅÇÈÉàáâãäåèéêëìíîïòóôõ" to "aaaaaceeaaaaaaeeeeiiiioooo"', function() {
-			demand(utils.slug('ÁÂÃÄÅÇÈÉàáâãäåèéêëìíîïòóôõ')).to.equal('aaaaaceeaaaaaaeeeeiiiioooo');
+		it('should transform "ÁÂÃÅÇÈÉàáâãåèéêëìíîïòóôõ" to "aaaaceeaaaaaeeeeiiiioooo"', function() {
+			demand(utils.slug('ÁÂÃÅÇÈÉàáâãåèéêëìíîïòóôõ')).to.equal('aaaaceeaaaaaeeeeiiiioooo');
 		});
-		it('should transform "çë Díaz Ü" to "ce-diaz-u"', function() {
-			demand(utils.slug('çë Díaz Ü')).to.equal('ce-diaz-u');
+		it('should transform "Ää" to "aeae"', function() {
+			demand(utils.slug('Ää')).to.equal('aeae');
 		});
-		it('should transform "çë Díaz Ü" to "ce-diaz-u"', function() {
-			demand(utils.slug('çë Díaz Ü')).to.equal('ce-diaz-u');
+		it('should transform "çë Díaz Ü" to "ce-diaz-ue"', function() {
+			demand(utils.slug('çë Díaz Ü')).to.equal('ce-diaz-ue');
 		});
 	});
 
@@ -134,17 +134,17 @@ describe('String transform', function(){
 		it('should transform "современном" to "sovremennom"', function() {
 			demand(utils.slug('современном')).to.equal('sovremennom');
 		});
-		it('should transform "Балы, красавицы, лакеи, юнкера" to "baly-krasavytsy-lakey-iunkera"', function() {
-			demand(utils.slug('Балы, красавицы, лакеи, юнкера')).to.equal('baly-krasavytsy-lakey-iunkera');
+		it('should transform "Балы, красавицы, лакеи, юнкера" to "baly-krasavicy-lakei-yunkera"', function() {
+			demand(utils.slug('Балы, красавицы, лакеи, юнкера')).to.equal('baly-krasavicy-lakei-yunkera');
 		});
-		it('should transform "И вальсы Шуберта и хруст французской булки," to "y-valsy-shuberta-y-khrust-frantsuzskoi-bulky"', function() {
-			demand(utils.slug('И вальсы Шуберта и хруст французской булки,')).to.equal('y-valsy-shuberta-y-khrust-frantsuzskoi-bulky');
+		it('should transform "И вальсы Шуберта и хруст французской булки," to "i-valsy-shuberta-i-hrust-francuzskoj-bulki"', function() {
+			demand(utils.slug('И вальсы Шуберта и хруст французской булки,')).to.equal('i-valsy-shuberta-i-hrust-francuzskoj-bulki');
 		});
-		it('should transform "Любовь, шампанское, закаты, переулки" to "liubov-shampanskoe-zakaty-pereulky"', function() {
-			demand(utils.slug('Любовь, шампанское, закаты, переулки')).to.equal('liubov-shampanskoe-zakaty-pereulky');
+		it('should transform "Любовь, шампанское, закаты, переулки" to "lyubov-shampanskoe-zakaty-pereulki"', function() {
+			demand(utils.slug('Любовь, шампанское, закаты, переулки')).to.equal('lyubov-shampanskoe-zakaty-pereulki');
 		});
-		it('should transform "Как упоительны в России вечера!" to "kak-upoytelny-v-rossyy-vechera"', function() {
-			demand(utils.slug('Как упоительны в России вечера!')).to.equal('kak-upoytelny-v-rossyy-vechera');
+		it('should transform "Как упоительны в России вечера!" to "kak-upoitelny-v-rossii-vechera"', function() {
+			demand(utils.slug('Как упоительны в России вечера!')).to.equal('kak-upoitelny-v-rossii-vechera');
 		});
 	});
 
