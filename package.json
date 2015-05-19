@@ -24,7 +24,8 @@
   "dependencies": {
     "underscore": "~1.7.0",
     "html-stringify": "~0.0.2",
-    "i": "~0.3.2"
+    "i": "~0.3.2",
+    "limax": "~1.0.1"
   },
   "devDependencies": {
     "mocha": ">= 1.19 < 2",
