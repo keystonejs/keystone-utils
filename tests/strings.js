@@ -1,5 +1,7 @@
-var demand = require('must'),
-	utils = require('../index');
+/* eslint-env node, mocha */
+
+var demand = require('must');
+var utils = require('../index');
 
 describe('String transform', function(){
 	describe('Titlecase', function() {
@@ -13,7 +15,6 @@ describe('String transform', function(){
 			demand(utils.titlecase('one Two three')).to.equal('One Two Three');
 		});
 	});
-
 
 	describe('Key to label', function() {
 		it('should transform "one" to "One"', function() {
@@ -50,7 +51,6 @@ describe('String transform', function(){
 			demand(utils.keyToLabel('someId')).to.equal('Some Id');
 		});
 	});
-
 
 	describe('Key to path', function() {
 		it('should transform "faq" to "faq"', function() {

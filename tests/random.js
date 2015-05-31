@@ -1,5 +1,7 @@
-var demand = require('must'),
-	utils = require('../index');
+/* eslint-env node, mocha */
+
+var demand = require('must');
+var utils = require('../index');
 
 describe('Random strings', function() {
 	it('Should return a 10 char random string of alphanums', function() {
