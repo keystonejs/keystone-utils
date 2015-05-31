@@ -28,6 +28,7 @@
     "limax": "~1.1.0"
   },
   "devDependencies": {
+    "happiness": "^1.0.5",
     "mocha": ">= 1.19 < 2",
     "must": ">= 0.11 < 1"
   },
@@ -38,6 +39,7 @@
     "url": "https://github.com/JedWatson/keystone-utils/issues"
   },
   "scripts": {
+    "lint": "happiness",
     "test": "./node_modules/.bin/mocha ./tests -R spec"
   }
 }
