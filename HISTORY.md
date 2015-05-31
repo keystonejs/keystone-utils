@@ -1,3 +1,13 @@
+# Changelog
+
+## v0.2.0 / 2015-05-31
+
+* added; [happiness](https://github.com/JedWatson/happiness) linter
+* fixed; all linter warnings :)
+* changed; now using [limax](https://github.com/lovell/limax) to generate slugs, which handles Latin, Cyrillic, Chinese and Japanese
+
+Special thanks to [Arthur Chan](https://github.com/arthurtalkgoal) and [Lovell Fuller](https://github.com/lovell) for their help getting `limax` integrated and working with our tests!
+
 ## v0.1.12 / 2014-08-29
 
 * updated; underscore to ~0.1.7
