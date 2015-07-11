@@ -1,6 +1,6 @@
 {
   "name": "keystone-utils",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A useful library of utilities used by KeystoneJS, and you!",
   "main": "index.js",
   "repository": {
