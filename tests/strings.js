@@ -153,4 +153,16 @@ describe('String transform', function () {
 			demand(utils.slug('The User’s Guide')).to.equal('the-users-guide');
 		});
 	});
+
+	describe('HTML entities conversion', function () {
+		it('should transform "You hit me & laughed; Touch&eacute;&#x00021;" to "You hit me & laughed; Touché!"', function () {
+			demand(utils.decodeHTMLEntities('You hit me & laughed; Touch&eacute;&#x00021;')).to.equal('You hit me & laughed; Touché!');
+		});
+		it('should transform "&Aacute;&Acirc;&Atilde;&Aring;&Ccedil;&Egrave;&Eacute;&agrave;&aacute;&acirc;&atilde;&aring;&egrave;&eacute;&ecirc;&euml;&igrave;&iacute;&icirc;&iuml;&ograve;&oacute;&ocirc;&otilde;" to "ÁÂÃÅÇÈÉàáâãåèéêëìíîïòóôõ"', function () {
+			demand(utils.decodeHTMLEntities('&Aacute;&Acirc;&Atilde;&Aring;&Ccedil;&Egrave;&Eacute;&agrave;&aacute;&acirc;&atilde;&aring;&egrave;&eacute;&ecirc;&euml;&igrave;&iacute;&icirc;&iuml;&ograve;&oacute;&ocirc;&otilde;')).to.equal('ÁÂÃÅÇÈÉàáâãåèéêëìíîïòóôõ');
+		});
+		it('should transform "&#x0003C;&#x000AA;&#x000D8;" to "<ªØ"', function () {
+			demand(utils.decodeHTMLEntities('&#x0003C;&#x000AA;&#x000D8;')).to.equal('<ªØ');
+		});
+	});
 });
