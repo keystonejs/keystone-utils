@@ -28,7 +28,7 @@
     "limax": "~1.1.0"
   },
   "devDependencies": {
-    "happiness": "^1.0.5",
+    "happiness": "^1.0.7",
     "mocha": ">=2.2",
     "must": ">=0.12"
   },
