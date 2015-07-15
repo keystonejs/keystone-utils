@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.2.3 / 2015-07-15
+
+* updated; `randomString` has now been published as its own package `randomkey`, still available as `utils.randomString`
+
+## v0.2.2 / 2015-07-14
+
+* updated; `limax` dependency, previous version was causing some build issues
+
+## v0.2.1 / 2015-07-12
+
+* fixed; issues with `htmlToText` and `decodeHTMLEntities`, thanks [Armel Larcier](https://github.com/Benew)
+* improved; `options` method rewritten for clarity, and tests added
+
 ## v0.2.0 / 2015-05-31
 
 * added; [happiness](https://github.com/JedWatson/happiness) linter
