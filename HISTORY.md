@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.3.0 / 2015-07-31
+
+* changed; now shipping with the `slug` package by default
+
+`limax` is now an optional package due to ongoing build issues with its dependencies on certain platforms. To use it (if you want support for Latin, Cyrillic, Chinese and Japanese characters) simply install it in your project; it will automatically be detected and used by `keystone-utils.slug()`.
+
 ## v0.2.0 / 2015-05-31
 
 * added; [happiness](https://github.com/JedWatson/happiness) linter
