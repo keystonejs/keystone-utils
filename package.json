@@ -25,6 +25,7 @@
     "html-stringify": "~0.0.3",
     "i": "~0.3.3",
     "slug": "^0.9.1",
+    "randomkey": "^1.0.0",
     "underscore": "~1.8.3"
   },
   "devDependencies": {
