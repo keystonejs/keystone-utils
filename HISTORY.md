@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.3.1 / 2015-11-29
+
+* removed; underscore dependency (requied methods are now included in `index.js`)
+* changed; `options` now augments and returns the first argument
+
+Thanks to [Adnan Asani](https://github.com/adnasa) for the fixes in this release
+
 ## v0.3.0 / 2015-07-31
 
 * changed; now shipping with the `slug` package by default
