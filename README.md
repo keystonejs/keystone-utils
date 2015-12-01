@@ -46,7 +46,7 @@ as `.utils`.
 *	`optionsMap(arr, property, clone)` - creates a map of options
 	*	Turns an array of objects into an object of objects, with each object
 		under the value of `property`
-	*	Will shallow-clone the objects when `clone` is true (c/o `underscore.clone`)
+	*	Performs a deep clone of the objects when `clone` is set to true
 
 ## Function utilities
 
@@ -126,9 +126,6 @@ as `.utils`.
 
 Credits
 =======
-
-Uses the excellent underscore library,
-see http://underscorejs.org or `npm info underscore`
 
 Uses the inflect library for singular / plural conversion,
 see https://github.com/pksunkara/inflect or `npm info i`
