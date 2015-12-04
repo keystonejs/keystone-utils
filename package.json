@@ -29,8 +29,8 @@
   },
   "devDependencies": {
     "happiness": "^1.0.7",
-    "mocha": ">=2.2",
-    "must": ">=0.12"
+    "mocha": ">=2.3",
+    "must": ">=0.13"
   },
   "author": "Jed Watson",
   "license": "MIT",
