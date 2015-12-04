@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.3.2 / 2015-12-05
+
+* added; `noop` method
+* fixed; `exports.kmBetween` was incorrectly pointing at `milesBetween`
+
+Thanks to [Adnan Asani](https://github.com/adnasa) for the fixes in this release
+
 ## v0.3.1 / 2015-11-29
 
 * removed; underscore dependency (requied methods are now included in `index.js`)
