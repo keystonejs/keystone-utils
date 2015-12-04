@@ -50,17 +50,18 @@ as `.utils`.
 
 ## Function utilities
 
+*	`noop()` - a simple function that does nothing ("no operation")
 *	`bindMethods(obj, scope)` - recursively binds method properties of `obj`
 	to `scope` and returns a new object containing the bound methods.
 
 ## Random utilities
 
-*	`randomString(len, chars)` - Generates a 'random' string of characters to the 
+*	`randomString(len, chars)` - Generates a 'random' string of characters to the
 	specified length (uses Math.random).
 	*	`len` can be an array of `[min, max]` length to generate
-	*	`chars` is a string of characters to include, defaults to 
+	*	`chars` is a string of characters to include, defaults to
 		`0123456789ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz`
-	
+
 ## Conversion utilities
 
 *	`number(arg)` - converts a string to a number, accepting human-friendly input
