@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.3 / 2016-02-14
+
+* added; `isDataURL` method, thanks [Riyadh Al Nur](https://github.com/riyadhalnur)
+
 ## v0.3.2 / 2015-12-05
 
 * added; `noop` method
