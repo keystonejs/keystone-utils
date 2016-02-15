@@ -36,6 +36,7 @@ as `.utils`.
 *	`isDate(arg)` - determines if `arg` is a date
 *	`isString(arg)` - determines if `arg` is a string
 *	`isNumber(arg)` - determines if `arg` is a number
+* `isDataURL(arg)` - determines if `arg` is a base64 encoded data URI
 *	`isEmail(arg)` - make sure `arg` looks like a valid email address
 	*	Uses a regular expression to check, so may cause false-negatives in
 		extremely rare cases. See http://www.regular-expressions.info/email.html
