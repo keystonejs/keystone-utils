@@ -23,8 +23,8 @@ lightweight html &larr; &rarr; text conversion.
 If you're using [KeystoneJS](http://keystonejs.com), it exposes this library
 as `.utils`.
 
-	var keystone = require('keystone'),
-		utils = keystone.utils;
+	var keystone = require('keystone');
+	var utils = keystone.utils;
 
 
 ## Test utilities
@@ -36,7 +36,7 @@ as `.utils`.
 *	`isDate(arg)` - determines if `arg` is a date
 *	`isString(arg)` - determines if `arg` is a string
 *	`isNumber(arg)` - determines if `arg` is a number
-* `isDataURL(arg)` - determines if `arg` is a base64 encoded data URI
+*	`isDataURL(arg)` - determines if `arg` is a base64 encoded data URI
 *	`isEmail(arg)` - make sure `arg` looks like a valid email address
 	*	Uses a regular expression to check, so may cause false-negatives in
 		extremely rare cases. See http://www.regular-expressions.info/email.html
@@ -52,6 +52,7 @@ as `.utils`.
 ## Function utilities
 
 *	`noop()` - a simple function that does nothing ("no operation")
+*	`defer(fn, args...)` - wraps the function and invokes it in `process.nextTick`, great for Zalgo containment
 *	`bindMethods(obj, scope)` - recursively binds method properties of `obj`
 	to `scope` and returns a new object containing the bound methods.
 
