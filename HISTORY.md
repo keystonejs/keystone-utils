@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.5 / 2016-05-06
+
+* fixed; switched slug dependency to `mollusc` (fork of `slug`) for Node.js v6+ support
+
 ## v0.3.4 / 2016-02-18
 
 * added; `defer` method
