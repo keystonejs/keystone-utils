@@ -22,15 +22,15 @@
     "html entities"
   ],
   "dependencies": {
-    "html-stringify": "~0.0.3",
-    "i": "~0.3.3",
+    "html-stringify": "^0.0.3",
+    "i": "^0.3.5",
     "mollusc": "^1.0.3",
     "randomkey": "^1.0.0"
   },
   "devDependencies": {
-    "happiness": "^1.0.7",
-    "mocha": ">=2.3",
-    "must": ">=0.13"
+    "happiness": "^6.0.7",
+    "mocha": "^2.4.0",
+    "must": "^0.13.0"
   },
   "author": "Jed Watson",
   "license": "MIT",
