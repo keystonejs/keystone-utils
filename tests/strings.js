@@ -137,8 +137,8 @@ describe('String transform', function () {
 		it('should transform "Балы, красавицы, лакеи, юнкера" to "baly-krasavicy-lakei-yunkera"', function () {
 			demand(utils.slug('Балы, красавицы, лакеи, юнкера')).to.equal('baly-krasavicy-lakei-yunkera');
 		});
-		it('should transform "И вальсы Шуберта и хруст французской булки," to "i-valsy-shuberta-i-hrust-francuzskoj-bulki"', function () {
-			demand(utils.slug('И вальсы Шуберта и хруст французской булки,')).to.equal('i-valsy-shuberta-i-hrust-francuzskoj-bulki');
+		it('should transform "И вальсы Шуберта и хруст французской булки," to "i-valsy-shuberta-i-khrust-francuzskoi-bulki"', function () {
+			demand(utils.slug('И вальсы Шуберта и хруст французской булки,')).to.equal('i-valsy-shuberta-i-khrust-francuzskoi-bulki');
 		});
 		it('should transform "Любовь, шампанское, закаты, переулки" to "lyubov-shampanskoe-zakaty-pereulki"', function () {
 			demand(utils.slug('Любовь, шампанское, закаты, переулки')).to.equal('lyubov-shampanskoe-zakaty-pereulki');
