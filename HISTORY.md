@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3.6 /
+
+* fixed; siwtched slug dependency back to `slug` due to problems in Keystone proper
+
 ## v0.3.5 / 2016-05-06
 
 * fixed; switched slug dependency to `mollusc` (fork of `slug`) for Node.js v6+ support

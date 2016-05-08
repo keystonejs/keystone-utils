@@ -24,8 +24,8 @@
   "dependencies": {
     "html-stringify": "^0.0.3",
     "i": "^0.3.5",
-    "mollusc": "^1.0.3",
-    "randomkey": "^1.0.0"
+    "randomkey": "^1.0.0",
+    "slug": "^0.9.1"
   },
   "devDependencies": {
     "happiness": "^6.0.7",
