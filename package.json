@@ -25,7 +25,7 @@
     "html-stringify": "^0.0.3",
     "i": "^0.3.5",
     "randomkey": "^1.0.0",
-    "slug": "^0.9.1"
+    "speakingurl": "^9.0.0"
   },
   "devDependencies": {
     "happiness": "^6.0.7",
