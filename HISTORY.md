@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.4.0 / 2016-05-08
+
+* fixed; switched slug dependency to `speakingurl` for Node.js v0.10+ support
+
+Hopefully this is the last of the rapid releases we'll have switching out the
+slug package. SpeakingURL works with all Node.js versions from v0.10 to 6, and
+has full feature parity with the `slug` package we were previously using.
+
+Support for `limax` is still in place, if you need support for Latin, Cyrillic,
+Chinese and Japanese characters simply install it in your project.
+
 ## v0.3.6 / 2016-05-08
 
 * fixed; switched slug dependency back to `slug` due to problems in Keystone proper
