@@ -1,8 +1,8 @@
 # Changelog
 
-## v0.3.6 /
+## v0.3.6 / 2016-05-08
 
-* fixed; siwtched slug dependency back to `slug` due to problems in Keystone proper
+* fixed; switched slug dependency back to `slug` due to problems in Keystone proper
 
 ## v0.3.5 / 2016-05-06
 
