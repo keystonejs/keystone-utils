@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.4.0 /
+
+* fixed; switched slug dependency to `speakingurl` for Node.js v0.10+ support and full feature parity with `slug`
+
 ## v0.3.5 / 2016-05-06
 
 * fixed; switched slug dependency to `mollusc` (fork of `slug`) for Node.js v6+ support
